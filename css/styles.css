@@ -1,0 +1,225 @@
+:root {
+    /*-----Text color----212121*/
+    --primary-text-color: #757575;
+    --secondary-text-color: #ffffff;
+    --title-text-color: #212121;
+    /*-----bgcolor-----*/
+    --main-background-color: #ffffff;
+    --secondary-bgd-color: #2f303a;
+    --third-bgd-color: #f5f4fa;
+    --accent-color: #2196f3;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    background-color: var(--main-background-color);
+    color: var(--primary-text-color);
+}
+
+
+/* вбираємо підкреслювання посилань*/
+.logo,
+.link {
+    text-decoration: none;
+}
+
+/* ------------Лого-------------- */
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--accent-color);
+}
+
+.logo-black {
+    color: var(--title-text-color);
+}
+
+/*-----Nav-------*/
+
+.link:hover,
+.link:focus,
+.link:active {
+    color: var(--accent-color);
+}
+
+.list .active {
+    color: var(--accent-color);
+}
+.list{
+    list-style: none;
+}
+
+
+
+.menu-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+/*--контакти--*/
+
+.menu-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+/*--Інформація сторінки--*/
+.hero {
+    background-color: var(--secondary-bgd-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+.hero-button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*--Переваги компанії-*/
+.sub-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+
+}
+
+/*--чим займаємось--*/
+.section-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+/*--наша команда--*/
+.team {
+    background-color: #f5f4fa;
+}
+
+.name-team {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+/*--Професії команди--*/
+.professions-team {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*--підвал--*/
+.footer {
+    background-color: var(--secondary-bgd-color);
+       
+}
+
+.logo-wight {
+    color: var(--secondary-text-color);
+}
+
+.adress {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+
+.contacts-footer {
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    ;
+}
+
+/* Portfolio CSS */
+
+.portfolio-button {
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--third-bgd-color);
+    border: none;
+    cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button:active {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+.portfolio-button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
