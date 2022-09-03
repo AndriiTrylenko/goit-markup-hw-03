@@ -21,7 +21,7 @@ body {
 }
 
 
-.container {
+.container {outline: 2px solid red;
     width: 1240px;
     padding-left: 15px;
     padding-right: 15px;
@@ -214,7 +214,7 @@ body {
         text-align: center;
     height: 648px;
     background-color: #f5f4fa;
-    outline: 2px solid red;
+    
 
 }
 
@@ -260,17 +260,19 @@ body {
 
 /*--підвал--*/
 .footer {
+    
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--secondary-bgd-color);
 
 }
 .logo-footer{
-    margin-left: auto;
+    padding-left: 40px;
     margin-bottom: 20px;
 }
 
-.logo-wight {
+.logo-wight:last-child {
+    
     color: var(--secondary-text-color);
 
 }
