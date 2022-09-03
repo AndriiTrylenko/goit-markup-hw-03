@@ -70,20 +70,6 @@ body {
 .list {
     list-style: none;
 }
-
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
-
 .mn {
     display: flex;
     margin-left: 93px;
@@ -225,7 +211,7 @@ body {
 
 /*--наша команда--*/
 .team {
-    text-align: center;
+        text-align: center;
     height: 648px;
     background-color: #f5f4fa;
     outline: 2px solid red;
@@ -234,6 +220,7 @@ body {
 
 .our-team {
     display: flex;
+    
 }
 
 .our-team .our-item {
@@ -273,8 +260,14 @@ body {
 
 /*--підвал--*/
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--secondary-bgd-color);
 
+}
+.logo-footer{
+    margin-left: auto;
+    margin-bottom: 20px;
 }
 
 .logo-wight {
@@ -283,6 +276,8 @@ body {
 }
 
 .adress {
+    margin-bottom: 9px;
+
     font-style: normal;
     font-size: 14px;
     line-height: 2;
