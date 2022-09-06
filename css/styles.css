@@ -251,7 +251,6 @@ ul {
 }
 
 .name-team {
-    outline: 2px solid red;
     margin-top: 30px;
     margin-bottom: 10px;
 
@@ -275,7 +274,7 @@ ul {
 }
 
 /*--підвал--*/
-.footer {outline: 1px solid red;
+.footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--secondary-bgd-color);
