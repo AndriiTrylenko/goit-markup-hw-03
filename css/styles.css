@@ -19,6 +19,7 @@ body {
     background-color: var(--main-background-color);
     color: var(--primary-text-color);
 }
+
 h1,
 h2,
 h3,
@@ -32,7 +33,7 @@ ul {
 }
 
 .container {
-    
+
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -45,6 +46,7 @@ ul {
     align-items: center;
 
 }
+
 /* вбираємо підкреслювання посилань*/
 .logo,
 .link {
@@ -59,7 +61,7 @@ ul {
     font-size: 26px;
     line-height: 1.2;
     color: var(--accent-color);
-    margin-right: 93px;
+
 }
 
 .logo-black {
@@ -81,14 +83,17 @@ ul {
 .list {
     list-style: none;
 }
-.header{
+
+.header {
     border-bottom: 1px solid #ffffff;
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
 .mn {
     display: flex;
-    
+    margin-left: 93px;
+
 }
 
 .mn .item:not(:last-child) {
@@ -97,7 +102,7 @@ ul {
 
 .menu-nav {
     display: block;
-    
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -164,10 +169,11 @@ ul {
 }
 
 /*--Переваги компанії-*/
-.section{
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .section-flex {
     display: flex;
 }
@@ -182,8 +188,8 @@ ul {
 }
 
 .sub-title {
-    margin-bottom: 50px;
-
+    margin-bottom: 12px;
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
@@ -210,39 +216,40 @@ ul {
 .section-title {
     text-align: center;
     margin-bottom: 50px;
-   
 
-   
+
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: var(--title-text-color);
+}
+
+.what-wedo {
+    padding-bottom: 94px;
 }
 
 /*--наша команда--*/
 
 .team {
     text-align: center;
-    height: 648px;
     background-color: #f5f4fa;
-    
+
 
 }
 
 .our-team {
     display: flex;
-    
+
 }
 
 .our-team .our-item {
     margin-left: 30px;
 
-    max-width: 270px;
-    max-height: 368px;
+    width: 270px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+        0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
 }
@@ -268,19 +275,21 @@ ul {
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    
+
     color: var(--primary-text-color);
 }
-.association-team{
+
+.association-team {
     padding-top: 30px;
     padding-bottom: 30px;
-} 
+}
 
 /*--підвал--*/
 .footer-logo {
     display: block;
     margin-bottom: 20px;
 }
+
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -289,16 +298,19 @@ ul {
 }
 
 
-.logo-wight{
-  color: var(--secondary-text-color);
+.logo-wight {
+    color: var(--secondary-text-color);
 }
-.contacts-items{
-    
- margin-bottom: 9px;
+
+.contacts-items {
+
+    margin-bottom: 9px;
 }
-.contacts-items:last-child{
+
+.contacts-items:last-child {
     margin-bottom: 0px;
 }
+
 .adress {
     font-style: normal;
     font-size: 14px;
@@ -319,29 +331,32 @@ ul {
 
 
 /* Portfolio CSS */
-.size-portfolio{
+.size-portfolio {
     outline: 1px solid red;
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.portfolio-button-head{
+.portfolio-button-head {
     margin-bottom: 50px;
     justify-content: center;
     display: flex;
-   
+
 }
-.item-pfb{
+
+.item-pfb {
     margin-right: 8px;
 }
-.item-pfb:last-child{
+
+.item-pfb:last-child {
     margin-right: 0px;
 }
 
 .portfolio-button {
-    padding: 6px 22px; 
+    padding: 6px 22px;
 
-    font-family: Roboto;sans-serif;
+    font-family: Roboto;
+    sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -353,7 +368,7 @@ ul {
     border: none;
     cursor: pointer;
 
-    
+
 
 }
 
@@ -372,26 +387,28 @@ ul {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
-.work{
+
+.work {
     gap: 30px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-   
-    
+
+
 }
 
-.item-work:nth-child(3n){
+.item-work:nth-child(3n) {
     margin-right: 0px;
 }
 
-.work-description{
-        padding: 20px 24px;
-        border-right: 1px solid #eeeeee;
-        border-left: 1px solid #eeeeee;
-        border-bottom: 1px solid #eeeeee;
+.work-description {
+    padding: 20px 24px;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
 }
+
 .portfolio-title {
-    
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -401,7 +418,6 @@ ul {
 
 .portfolio-text {
     margin-top: 4px;
-    margin-bottom: 20px;
     font-size: 16px;
     line-height: 2;
     letter-spacing: 0.03em;
